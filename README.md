@@ -1,2 +1,6 @@
 # WebTest
-WebTest
+
+- Test git clone
+- Test git add
+- Test git commit
+- Test git push
