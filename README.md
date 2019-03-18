@@ -1,6 +1,6 @@
 # WebTest
 
-2019.03.17
+### 2019.03.17
 
 - Test git clone  ➡️  git clone <地址> //将远端的代码以及相关分支信息clone到本地
 - Test git add  ➡️  git add <文件名>
@@ -9,7 +9,7 @@
 - Test git pull  ➡️  git pull
 - Test git status  ➡️  git status //查看相关文件的状态
 
-2019.03.18
+### 2019.03.18
 
 - Test git version 2.21.0
 
@@ -19,7 +19,7 @@
 
 - 跳过使用暂存区域 git commit -a -m "description"
 
-  ### 跳过使用暂存区域
+  #### 跳过使用暂存区域
 
   尽管使用暂存区域的方式可以精心准备要提交的细节，但有时候这么做略显繁琐。 Git 提供了一个跳过使用暂存区域的方式， 只要在提交的时候，给 `git commit` 加上 `-a` 选项，Git 就会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 `git add` 步骤：
 
@@ -37,4 +37,3 @@
   [master 83e38c7] added new benchmarks
    1 file changed, 5 insertions(+), 0 deletions(-)
   ```
-
