@@ -17,7 +17,7 @@
 
 - Test git diff --cached  ➡️  `git diff --cache or git diff —staged` //查看已暂存的将要添加到下次提交里的内容
 
-- 跳过使用暂存区域` git commit -a -m "description"`
+- 跳过使用暂存区域 `git commit -a -m "description"`
 
   #### 跳过使用暂存区域
 
@@ -38,6 +38,7 @@
    1 file changed, 5 insertions(+), 0 deletions(-)
   ```
 
+<<<<<<< HEAD
 -  `git rm <file name>` 下一次提交时该文件不再纳入版本管理
 
   `git rm -f <file name>` 如果删除之前修改过并且已经放到暂存区域的话，则必须要用强制删除选项 `-f`（译注：即 force 的首字母）
@@ -62,3 +63,6 @@
   $ git rm README.md
   $ git add README
   ```
+=======
+  
+>>>>>>> 5ddf2dddb8cb8b41346d1839ec9463ffb51a17aa
