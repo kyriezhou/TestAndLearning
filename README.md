@@ -12,3 +12,5 @@
 2019.03.18
 
 - Test git version 2.21.0
+- Test git diff  ➡️  git diff //查看尚未暂存的文件更新了哪些部分
+- Test git diff --cached  ➡️  git diff --cache or git diff --staged //查看已暂存的将要添加到下次提交里的内容
