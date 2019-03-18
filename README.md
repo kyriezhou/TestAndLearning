@@ -53,9 +53,9 @@
       deleted:    PROJECTS.md
   ```
 
-- 移动文件`git mv`
+- 移动文件 `git mv`
 
-   `git mv file_from file_to`
+  `git mv file_from file_to`
 
   运行 `git mv` 就相当于运行了下面三条命令：
 
@@ -65,6 +65,6 @@
   $ git add README
   ```
 
-- 查看提交历史`git log`
+- 查看提交历史 `git log`
 
-  `-p` 用来心事每次提交的内容差异，`-2` 来仅显示最近两次提交  
+  `-p` 用来心事每次提交的内容差异，`-2` 来仅显示最近两次提交 
