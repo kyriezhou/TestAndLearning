@@ -53,7 +53,7 @@
       deleted:    PROJECTS.md
   ```
 
-- 移动文件
+- 移动文件
 
    `git mv file_from file_to`
 
