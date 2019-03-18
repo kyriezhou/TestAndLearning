@@ -17,7 +17,7 @@
 
 - Test git diff --cached  ➡️  `git diff --cache or git diff —staged` //查看已暂存的将要添加到下次提交里的内容
 
-- 跳过使用暂存区域` git commit -a -m "description"`
+- 跳过使用暂存区域 `git commit -a -m "description"`
 
   #### 跳过使用暂存区域
 
