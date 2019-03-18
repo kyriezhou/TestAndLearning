@@ -2,9 +2,9 @@
 
 ### 2019.03.17
 
-- Test git clone  ➡️  `git clone <地址>` //将远端的代码以及相关分支信息clone到本地
-- Test git add  ➡️  `git add <文件名>`
-- Test git commit  ➡️  `git commit -m "description"`
+- Test git clone  ➡️  `git clone [address]` //将远端的代码以及相关分支信息clone到本地
+- Test git add  ➡️  `git add [file name]`
+- Test git commit  ➡️  `git commit -m [description]`
 - Test git push  ➡️  `git push`
 - Test git pull  ➡️  `git pull`
 - Test git status  ➡️  `git status` //查看相关文件的状态
@@ -17,7 +17,7 @@
 
 - Test git diff --cached  ➡️  `git diff --cache or git diff —staged` //查看已暂存的将要添加到下次提交里的内容
 
-- 跳过使用暂存区域 `git commit -a -m "description"`
+- 跳过使用暂存区域 `git commit -a -m [description]`
 
   #### 跳过使用暂存区域
 
@@ -38,9 +38,9 @@
    1 file changed, 5 insertions(+), 0 deletions(-)
   ```
 
-- `git rm <file name>` 下一次提交时该文件不再纳入版本管理
+- `git rm [file name]` 下一次提交时该文件不再纳入版本管理
 
-  `git rm -f <file name>` 如果删除之前修改过并且已经放到暂存区域的话，则必须要用强制删除选项 `-f`（译注：即 force 的首字母）
+  `git rm -f [file name]` 如果删除之前修改过并且已经放到暂存区域的话，则必须要用强制删除选项 `-f`（译注：即 force 的首字母）
 
   ```console
   $ git rm PROJECTS.md
@@ -91,8 +91,8 @@
   | `%cr` | 提交日期，按多久以前的方式显示              |
   | `%s`  | 提交说明                                    |
 
-- 取消对文件的暂存 `git reset HEAD <file>`
+- 取消对文件的暂存 `git reset HEAD [file]`
 
-- 撤销对文件的修改 `git checkout -- <file>`
+- 撤销对文件的修改 `git checkout -- [file]`
 
    `git checkout -- [file]` 是一个危险的命令，这很重要。 你对那个文件做的任何修改都会消失 - 你只是拷贝了另一个文件来覆盖它。 除非你确实清楚不想要那个文件了，否则不要使用这个命令。
