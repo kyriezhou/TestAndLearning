@@ -11,4 +11,4 @@
 
 2019.03.18
 
-- Test git version 2.21.0 是否支持中文
+- Test git version 2.21.0
