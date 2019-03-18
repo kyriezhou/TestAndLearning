@@ -38,4 +38,27 @@
    1 file changed, 5 insertions(+), 0 deletions(-)
   ```
 
+-  `git rm <file name>` 下一次提交时该文件不再纳入版本管理
+
+  `git rm -f <file name>` 如果删除之前修改过并且已经放到暂存区域的话，则必须要用强制删除选项 `-f`（译注：即 force 的首字母）
+
+  ```console
+  $ git rm PROJECTS.md
+  rm 'PROJECTS.md'
+  $ git status
+  On branch master
+  Changes to be committed:
+    (use "git reset HEAD <file>..." to unstage)
   
+      deleted:    PROJECTS.md
+  ```
+
+- 移动文件 `git mv file_from file_to`
+
+  运行 `git mv` 就相当于运行了下面三条命令：
+
+  ```console
+  $ mv README.md README
+  $ git rm README.md
+  $ git add README
+  ```
