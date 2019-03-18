@@ -96,3 +96,32 @@
 - 撤销对文件的修改 `git checkout -- [file]`
 
    `git checkout -- [file]` 是一个危险的命令，这很重要。 你对那个文件做的任何修改都会消失 - 你只是拷贝了另一个文件来覆盖它。 除非你确实清楚不想要那个文件了，否则不要使用这个命令。
+
+- Git 别名
+
+  在创建你认为应该存在的命令时这个技术会很有用。 例如，为了解决取消暂存文件的易用性问题，可以向 Git 中添加你自己的取消暂存别名：
+
+  ```console
+  $ git config --global alias.unstage 'reset HEAD --'
+  ```
+
+  这会使下面的两个命令等价：
+
+  ```console
+  $ git unstage fileA
+  $ git reset HEAD -- fileA
+  ```
+
+  这样看起来更清楚一些。 通常也会添加一个 `last` 命令，像这样：
+
+  ```console
+  $ git config --global alias.last 'log -1 HEAD'
+  ```
+
+  这样，可以轻松地看到最后一次提交：
+
+  ```console
+  $ git last
+  ```
+
+- 
